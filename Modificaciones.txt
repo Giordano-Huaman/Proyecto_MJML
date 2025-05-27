@@ -1,2 +1,7 @@
-La Primera semana ha consistido en conocer mjml y trastear un poco con los comandos
+Primera semana
+Ha consistido en conocer mjml y trastear un poco con los comandos
 He añadido algunos archivos que he hecho con ayuda de otros archivos .mjml.
+
+Segunda semana
+Primer reto terminado y subido, falta documentacion
+Desarrollo del segundo reto y creacion de un servidor para automatizar el envio de correos con node.js
