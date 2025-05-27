@@ -140,6 +140,19 @@
       </mj-column>
     </mj-section>
 
+    <!-- ENLACE FERIA VALENCIA -->
+    <mj-section background-color="#ffffff" padding="25px 25px" border-radius="12px">
+      <mj-column>
+        <mj-image
+          href="https://www.feriavalencia.com"
+          src="https://github.com/Giordano-Huaman/Proyecto_MJML/blob/main/Imagenes/Logo_Feria.png?raw=true"
+          alt="Feria Valencia"
+          width="180px"
+          align="center"
+        />
+      </mj-column>
+    </mj-section>
+
     <!-- FOOTER -->
     <mj-section background-color="#ffffff" padding="15px 30px" border-radius="12px">
       <mj-column>
