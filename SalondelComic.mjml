@@ -1,57 +1,27 @@
 <mjml>
-  <mj-head>
-    <mj-title>Boletín Informativo - Mayo 2025</mj-title>
-    <mj-attributes>
-      <mj-text font-family="Arial, sans-serif" />
-    </mj-attributes>
-  </mj-head>
   <mj-body background-color="#f0f4f8">
     <mj-section background-color="#ffffff" padding="20px">
       <mj-column>
-        <mj-image src="https://via.placeholder.com/200x50?text=LOGO" align="center" alt="Logo" width="200px" />
-        <mj-text font-size="24px" align="center" font-weight="bold">Boletín Mensual - Mayo 2025</mj-text>
-        <mj-divider border-color="#1e40af" />
-        <mj-text font-size="16px" color="#333333" line-height="1.5">
-          Te traemos las últimas noticias, eventos y oportunidades destacadas de este mes. ¡No te lo pierdas!
-        </mj-text>
+        <mj-text font-size="22px" font-weight="bold">📰 Blog Mensual: Mayo 2025</mj-text>
+        <mj-text font-size="14px" color="#555">Las últimas entradas seleccionadas para ti:</mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#ffffff" padding="20px">
+    <mj-section background-color="#ffffff">
       <mj-column>
-        <mj-image src="https://via.placeholder.com/600x200" alt="Imagen de Noticia" />
-        <mj-text font-size="18px" font-weight="bold" color="#1e40af">Evento destacado: Jornada de innovación</mj-text>
-        <mj-text font-size="14px">Participa en nuestra jornada para descubrir nuevas oportunidades en tecnología y creatividad.</mj-text>
-        <mj-button href="#">Leer más</mj-button>
+        <mj-image src="https://via.placeholder.com/600x200" />
+        <mj-text font-size="16px" font-weight="bold">Cómo preparar tu stand para una feria educativa</mj-text>
+        <mj-button href="#">Leer artículo</mj-button>
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#ffffff" padding="20px">
+    <mj-section background-color="#ffffff">
       <mj-column>
-        <mj-text font-size="18px" font-weight="bold" color="#1e40af">📌 Noticias breves</mj-text>
-        <mj-text font-size="14px" line-height="1.6">
-          🔹 Nuevo convenio con instituciones educativas<br/>
-          🔹 Convocatoria abierta para talleres 2025<br/>
-          🔹 Renovación de plataformas digitales
-        </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <mj-section background-color="#f8fafc" padding="20px">
-      <mj-column>
-        <mj-text font-size="16px" font-weight="bold">Síguenos en redes sociales</mj-text>
-        <mj-social font-size="15px" icon-size="30px" mode="horizontal" align="center">
-          <mj-social-element name="facebook" href="#">Facebook</mj-social-element>
-          <mj-social-element name="twitter" href="#">Twitter</mj-social-element>
-          <mj-social-element name="instagram" href="#">Instagram</mj-social-element>
-        </mj-social>
-      </mj-column>
-    </mj-section>
-
-    <mj-section background-color="#ffffff" padding="20px">
-      <mj-column>
-        <mj-text font-size="12px" color="#888888" align="center">
-          © 2025 Organización Ejemplo - Todos los derechos reservados
+        <mj-text font-size="16px" font-weight="bold">También te puede interesar:</mj-text>
+        <mj-text>
+          ✅ Mejores prácticas para captar atención<br/>
+          ✅ Plantillas de planificación de eventos<br/>
+          ✅ Herramientas gratuitas de diseño
         </mj-text>
       </mj-column>
     </mj-section>
