@@ -1,0 +1,163 @@
+<mjml>
+  <mj-head>
+  <mj-breakpoint width="480px" />
+    <mj-attributes>
+      <mj-text font-family="Ubuntu, Helvetica, Arial, sans-serif" color="#004aad" />
+      <mj-image padding="5px" border-radius="8px" />
+      <mj-button
+        font-family="Helvetica, Arial, sans-serif"
+        background-color="#1e40af"
+        color="#ffffff"
+        font-weight="bold"
+        border-radius="6px"
+        padding="15px 30px"
+      />
+    </mj-attributes>
+    <mj-style inline="inline">
+      a {
+        color: #1e40af;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      @media only screen and (max-width:480px) {
+      .service-title {
+        font-size: 16px !important;
+      }
+      .service-text {
+        font-size: 13px !important;
+        padding: 0 10px !important;
+      }
+    }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#cce7ff">
+
+    <!-- HEADER -->
+    <mj-section background-color="#ffffff" padding="40px 25px" border-radius="12px" text-align="center">
+      <mj-column>
+        <mj-text font-size="28px" font-weight="bold" align="center" padding-bottom="20px">
+          Exhibitor Services for Expojove 2025
+        </mj-text>
+        <mj-image
+          src="https://github.com/Giordano-Huaman/Proyecto_MJML/blob/main/Imagenes/Cabecera_ExpoJove.jpg?raw=true"
+          alt="ExpoJove Header"
+          width="480px"
+          border-radius="12px"
+        />
+        <mj-text font-size="16px" color="#334155" padding="20px 50px 0 50px" line-height="1.4">
+          We want your participation in <strong>Expojove 2025</strong> to be a success. Here are the services available to all exhibitors.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- TWO-COLUMN SECTION -->
+    <mj-section background-color="#e6f0ff" padding="40px 25px" border-radius="12px">
+      <mj-column width="50%">
+        <mj-image
+          src="https://github.com/Giordano-Huaman/Proyecto_MJML/blob/main/Imagenes/ExpoJove_multitud.png?raw=true"
+          alt="Crowd watching a stage"
+          padding-top="50px"
+          padding-bottom="50px"
+          border-radius="12px"
+          align="center"
+        />
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-text font-size="28px" font-weight="bold" color="#1e40af" padding-bottom="15px">
+          Welcome to Expojove
+        </mj-text>
+        <mj-text font-size="16px" color="#334155" line-height="1.5">
+          Expojove is the event where thousands of young people gather to enjoy activities, shows, and stands full of new experiences. We invite you to be part of this amazing adventure.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- SERVICES SECTION -->
+    <mj-section background-color="#ffffff" padding="40px 25px" border-radius="12px">
+        <mj-column>
+            <mj-text font-size="24px" font-weight="bold" color="#1e40af" padding-bottom="20px" align="center">
+              Services Expojove Offers to Exhibitors
+            </mj-text>
+
+            <mj-text css-class="service-title" font-size="18px" font-weight="bold" color="#004aad" padding-bottom="8px">
+              🎪 Setup and Logistics
+            </mj-text>
+            <mj-text css-class="service-text" font-size="14px" color="#334155" padding-bottom="15px" line-height="1.5">
+              Access to setup, technical assistance during installation and dismantling, and logistical support throughout the event.
+            </mj-text>
+
+            <mj-text css-class="service-title" font-size="18px" font-weight="bold" color="#004aad" padding-bottom="8px">
+              📣 Promotion and Visibility
+            </mj-text>
+            <mj-text css-class="service-text" font-size="14px" color="#334155" padding-bottom="15px" line-height="1.5">
+              Inclusion in the official catalog, promotion on social media, and highlighted signage presence at the venue.
+            </mj-text>
+
+            <mj-text css-class="service-title" font-size="18px" font-weight="bold" color="#004aad" padding-bottom="8px">
+              🤝 Exhibitor Support
+            </mj-text>
+            <mj-text css-class="service-text" font-size="14px" color="#334155" padding-bottom="15px" line-height="1.5">
+              On-site support personnel, an exhibitor help desk, and direct contact to resolve any issues.
+            </mj-text>
+
+            <mj-text css-class="service-title" font-size="18px" font-weight="bold" color="#004aad" padding-bottom="8px">
+              📦 Additional Services
+            </mj-text>
+            <mj-text css-class="service-text" font-size="14px" color="#334155" padding-bottom="15px" line-height="1.5">
+              Furniture rental, extra electrical connections, support staff, specialized cleaning, and more.
+            </mj-text>
+
+            <mj-button href="https://www.expojove.com/expositores" align="center" padding="25px 0 0 0">
+              More about services
+            </mj-button>
+        </mj-column>
+    </mj-section>
+
+    <!-- SOCIAL MEDIA -->
+    <mj-section background-color="#e6f0ff" padding="30px 25px" border-radius="12px">
+      <mj-column>
+        <mj-text font-size="16px" color="#1e40af" font-weight="bold" align="center" padding-bottom="15px">
+          Follow us on social media
+        </mj-text>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal" align="center" padding-bottom="10px">
+          <mj-social-element name="facebook" href="https://www.facebook.com/expojove.valencia/" background-color="#3b5998">
+            Facebook
+          </mj-social-element>
+          <mj-social-element name="instagram" href="https://www.instagram.com/expojovevlc/" background-color="#e1306c">
+            Instagram
+          </mj-social-element>
+          <mj-social-element name="twitter" href="https://x.com/ExpoJoveVLC" background-color="#1da1f2">
+            Twitter
+          </mj-social-element>
+          <mj-social-element name="youtube" href="https://www.youtube.com/@ExpojoveVLC2" background-color="#ff0000">
+            YouTube
+          </mj-social-element>
+        </mj-social>
+        <mj-image
+          href="https://www.feriavalencia.com"
+          src="https://github.com/Giordano-Huaman/Proyecto_MJML/blob/main/Imagenes/Logo_Feria.png?raw=true"
+          alt="Feria Valencia"
+          width="180px"
+          align="center"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- FOOTER -->
+    <mj-section background-color="#ffffff" padding="15px 30px" border-radius="12px">
+      <mj-column>
+        <mj-text font-size="12px" color="#334155" align="center" line-height="1.3">
+          This email was sent by the Expojove Valencia organization | <a href="https://www.expojove.com" target="_blank" rel="noopener noreferrer">www.expojove.com</a>
+        </mj-text>
+        <mj-text font-size="12px" color="#888888" align="center" padding-top="5px">
+          © Feria Valencia 2023 All rights reserved
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
