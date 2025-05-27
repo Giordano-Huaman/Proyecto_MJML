@@ -1,0 +1,2 @@
+La Primera semana ha consistido en conocer mjml y trastear un poco con los comandos
+He añadido algunos archivos que he hecho con ayuda de otros archivos .mjml.

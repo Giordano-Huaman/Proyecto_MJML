@@ -1,0 +1,12 @@
+<mjml>
+  <mj-body background-color="#f0f0f0">
+    <mj-section>
+      <mj-column>
+        <mj-image src="./Imagenes/Cabecera_ExpoJove.jpg" alt="Banner" />
+        <mj-text font-size="20px" font-weight="bold">Bienvenido a nuestro boletín</mj-text>
+        <mj-text font-size="16px">Gracias por suscribirte. Aquí encontrarás las últimas noticias y actualizaciones.</mj-text>
+        <mj-button href="https://tusitio.com">Visítanos</mj-button>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

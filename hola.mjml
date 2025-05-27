@@ -14,7 +14,7 @@
       </mj-column>
     </mj-section>
   <!-- -->
-  <mj-section background-color="Brown">
+  <mj-section background-color="red">
       <mj-column>
         <mj-navbar base-url="https://mjml.io" hamburger="hamburger" ico-color="#ffffff">
             <mj-navbar-link href="/gettings-started-onboard" color="#ffffff">Getting started</mj-navbar-link>
