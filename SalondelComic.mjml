@@ -1,27 +1,81 @@
 <mjml>
-  <mj-body background-color="#f0f4f8">
+  <mj-head>
+    <mj-title>Boletín Salón del Cómic de València</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-attributes>
+      <mj-all font-family="Roboto, Arial, sans-serif" />
+      <mj-text font-size="16px" color="#333333" />
+      <mj-button background-color="#E63946" color="#ffffff" font-weight="bold" border-radius="6px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#f5f5f5">
     <mj-section background-color="#ffffff" padding="20px">
       <mj-column>
-        <mj-text font-size="22px" font-weight="bold">📰 Blog Mensual: Mayo 2025</mj-text>
-        <mj-text font-size="14px" color="#555">Las últimas entradas seleccionadas para ti:</mj-text>
+        <mj-image src="https://example.com/logo.png" alt="Salón del Cómic de València" width="150px" />
+        <mj-text font-size="22px" font-weight="bold" color="#1D3557" align="center">
+          🎉 Boletín Oficial – Salón del Cómic de València 🎉
+        </mj-text>
+        <mj-text align="center" color="#457B9D">
+          ¡Prepárate para la experiencia más épica del año!
+        </mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#ffffff">
+    <mj-section background-color="#ffffff" padding-top="0">
       <mj-column>
-        <mj-image src="https://via.placeholder.com/600x200" />
-        <mj-text font-size="16px" font-weight="bold">Cómo preparar tu stand para una feria educativa</mj-text>
-        <mj-button href="#">Leer artículo</mj-button>
-      </mj-column>
-    </mj-section>
-
-    <mj-section background-color="#ffffff">
-      <mj-column>
-        <mj-text font-size="16px" font-weight="bold">También te puede interesar:</mj-text>
+        <mj-divider border-color="#E63946" />
+        <mj-text font-size="18px" font-weight="bold" color="#1D3557">📰 Últimas Noticias</mj-text>
         <mj-text>
-          ✅ Mejores prácticas para captar atención<br/>
-          ✅ Plantillas de planificación de eventos<br/>
-          ✅ Herramientas gratuitas de diseño
+          <strong>🎤 Invitados Estelares:</strong> Este año contamos con artistas legendarios como <em>Nombre del artista</em> y <em>Nombre de ilustradora</em>, creadores de tus cómics favoritos.
+        </mj-text>
+        <mj-text>
+          <strong>📣 ¡Más Zona Indie!</strong> Ampliamos el espacio para nuevos talentos del cómic con stands dedicados a la creatividad emergente.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding-top="0">
+      <mj-column>
+        <mj-divider border-color="#E63946" />
+        <mj-text font-size="18px" font-weight="bold" color="#1D3557">💥 Promociones Especiales</mj-text>
+        <mj-text>
+          <strong>🎟️ Descuento por Compra Anticipada:</strong> Ahorra un 15% en tus entradas hasta el <strong>[fecha límite]</strong>.
+        </mj-text>
+        <mj-button href="https://example.com/entradas">Comprar Entradas</mj-button>
+
+        <mj-text>
+          <strong>🛍️ Pack Fan Total:</strong> Entrada + póster + camiseta limitada. ¡Solo para los primeros 500!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding-top="0">
+      <mj-column>
+        <mj-divider border-color="#E63946" />
+        <mj-text font-size="18px" font-weight="bold" color="#1D3557">✨ Nuevos Estilos</mj-text>
+        <mj-text>
+          Descubre una estética renovada con influencias <em>neo-retro y urbanas</em>. Vive zonas temáticas, arte callejero y ambientación inmersiva.
+        </mj-text>
+        <mj-text>
+          📷 Usa el hashtag <strong>#ComicValencia2025</strong> y participa en el sorteo de merchandising exclusivo.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding-top="0" padding-bottom="20px">
+      <mj-column>
+        <mj-divider border-color="#E63946" />
+        <mj-text align="center">
+          ¿Quieres más contenido exclusivo, sorteos y noticias?
+        </mj-text>
+        <mj-button href="https://example.com/boletin">Suscribirse al Boletín</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#1D3557" padding="10px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="12px">
+          © 2025 Salón del Cómic de València. Todos los derechos reservados.
         </mj-text>
       </mj-column>
     </mj-section>

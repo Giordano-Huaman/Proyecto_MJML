@@ -53,7 +53,7 @@
           Servicios para Expositores Expojove 2025
         </mj-text>
         <mj-image
-          src="https://github.com/Giordano-Huaman/Proyecto_MJML/blob/main/Imagenes/Cabecera_ExpoJove.jpg?raw=true"
+          src="https://raw.githubusercontent.com/Giordano-Huaman/Proyecto_MJML/main/Imagenes/Cabecera_ExpoJove.jpg"
           alt="ExpoJove Header"
           width="480px"
           border-radius="12px"
@@ -68,7 +68,7 @@
     <mj-section background-color="#e6f0ff" padding="40px 25px" border-radius="12px">
       <mj-column width="50%">
         <mj-image
-          src="https://github.com/Giordano-Huaman/Proyecto_MJML/blob/main/Imagenes/ExpoJove_multitud.png?raw=true"
+          src="https://raw.githubusercontent.com/Giordano-Huaman/Proyecto_MJML/main/Imagenes/ExpoJove_multitud.png"
           alt="Multitud viendo un escenario"
           padding-top="50px"
           padding-bottom="50px"
@@ -149,7 +149,7 @@
         </mj-social>
         <mj-image
           href="https://www.feriavalencia.com"
-          src="https://github.com/Giordano-Huaman/Proyecto_MJML/blob/main/Imagenes/Logo_Feria.png?raw=true"
+          src="https://raw.githubusercontent.com/Giordano-Huaman/Proyecto_MJML/main/Imagenes/Logo_Feria.png"
           alt="Feria Valencia"
           width="180px"
           align="center"
