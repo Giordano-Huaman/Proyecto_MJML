@@ -107,7 +107,7 @@
       <mj-text css-class="section-text">
         Illustration, kids' comics, maker space, VR battles, and live role-playing games. Join the fun!
       </mj-text>
-      <mj-button background-color="#FFC107" color="#2E2E2E" href="https://www.saloncomicvalencia.com/talleres">Register now</mj-button>
+      <mj-button background-color="#FFC107" color="#2E2E2E" href="https://www.saloncomicvalencia.com/avance-programacion-2025/talleres-y-actividades-permanentes/">Register now</mj-button>
     </mj-column>
     <mj-column width="50%">
       <mj-image src="https://raw.githubusercontent.com/Giordano-Huaman/Proyecto_MJML/main/Imagenes/Comic2.jpg" alt="RPG Table" border-radius="8px" />
