@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-  <mj-breakpoint width="480px" />
+    <mj-title>ExpoJove - Feria Valencia</mj-title>
     <mj-attributes>
       <mj-text font-family="Ubuntu, Helvetica, Arial, sans-serif" color="#004aad" />
       <mj-image padding="5px" border-radius="8px" />
@@ -23,14 +23,38 @@
         text-decoration: underline;
       }
       @media only screen and (max-width:480px) {
-      .service-title {
-        font-size: 16px !important;
+        .service-title {
+          font-size: 16px !important;
+        }
+        .service-text {
+          font-size: 13px !important;
+          padding: 0 10px !important;
+        }
+        body, .mj-body {
+          padding: 0 !important;
+          margin: 0 !important;
+        }
+        .mj-section, .mj-column {
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+        }
+        img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .mj-button {
+          padding: 10px 20px !important;
+          font-size: 14px !important;
+        }
+        .mj-column-per-50 {
+          width: 100% !important;
+          display: block !important;
+        }
+        .mj-section {
+          padding-top: 20px !important;
+          padding-bottom: 20px !important;
+        }
       }
-      .service-text {
-        font-size: 13px !important;
-        padding: 0 10px !important;
-      }
-    }
     </mj-style>
   </mj-head>
 
@@ -44,7 +68,7 @@
             <a href="https://giordano-huaman.github.io/Proyecto_MJML/HTML/Expojove_final_en.html">English</a>
             </mj-text>
         </mj-column>
-    </mj-section
+    </mj-section>
 
     <!-- HEADER -->
     <mj-section background-color="#ffffff" padding="40px 25px" border-radius="12px" text-align="center">

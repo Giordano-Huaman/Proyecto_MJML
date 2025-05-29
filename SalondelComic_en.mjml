@@ -1,0 +1,211 @@
+<mjml>
+<mj-head>
+  <mj-title>Comic Con - Feria Valencia</mj-title>
+  <mj-preview>Discover the schedule, guests, and surprises of Comic Con Valencia</mj-preview>
+  <mj-font name="Bangers" href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" />
+  <mj-style>
+    .title {
+      font-family: 'Bangers', cursive;
+      font-size: 32px;
+      color: #2E7D32;
+    }
+    .section-text {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      color: #2E2E2E;
+      line-height: 1.6;
+    }
+    .highlight {
+      background-color: #A5D6A7;
+      border-left: 5px solid #2E7D32;
+      padding: 10px;
+    }
+
+    @media only screen and (max-width:480px) {
+      .title {
+        font-size: 24px !important;
+        text-align: center !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+      }
+      .section-text {
+        font-size: 14px !important;
+        padding: 0 10px !important;
+        text-align: center !important;
+      }
+      .highlight {
+        font-size: 14px !important;
+        padding: 10px !important;
+      }
+      .mj-column-per-50,
+      .mj-column-per-33 {
+        width: 100% !important;
+        display: block !important;
+      }
+      .mj-button {
+        width: auto !important;
+        font-size: 14px !important;
+        padding: 10px 20px !important;
+      }
+      img {
+        width: 100% !important;
+        height: auto !important;
+      }
+    }
+  </mj-style>
+</mj-head>
+
+<mj-body background-color="#F5F5F5">
+
+  <!-- LANGUAGE SWITCH -->
+    <mj-section background-color="#F5F5F5" padding="10px 25px" border-radius="12px">
+        <mj-column width="100%" vertical-align="middle">
+            <mj-text align="right" font-size="14px" padding="0">
+            <a href="https://giordano-huaman.github.io/Proyecto_MJML/HTML/SalondelComic.html" style="margin-right: 15px;">Español</a>
+            <a href="https://giordano-huaman.github.io/Proyecto_MJML/HTML/SalondelComic_en.html">English</a>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+  <!-- Header -->
+  <mj-section background-color="#2E7D32" padding="20px 0">
+    <mj-column>
+      <mj-text align="center" color="#FFFFFF" font-size="24px" font-family="Bangers">
+        🌿 Comic Con Returns to Valencia!
+      </mj-text>
+      <mj-image src="https://raw.githubusercontent.com/Giordano-Huaman/Proyecto_MJML/main/Imagenes/Cabecera_Comic.jpg" alt="Comic Fair Header" />
+    </mj-column>
+  </mj-section>
+
+  <!-- Section 1 -->
+  <mj-section>
+    <mj-column width="50%">
+      <mj-image src="https://raw.githubusercontent.com/Giordano-Huaman/Proyecto_MJML/main/Imagenes/Comic1.jpg" alt="Event Image" border-radius="8px" padding-bottom="30px" padding-top="30px" />
+    </mj-column>
+    <mj-column width="50%">
+      <mj-text css-class="title">An Adventure for Everyone</mj-text>
+      <mj-text css-class="section-text">
+        From February 28 to March 2, 2025, the world of comics takes over Feria Valencia. Talks, manga zone, cosplay, gaming, workshops, and author signings await!
+      </mj-text>
+      <mj-button background-color="#FFC107" color="#2E2E2E" href="https://www.saloncomicvalencia.com/avance-programacion-2025/">See the schedule</mj-button>
+    </mj-column>
+  </mj-section>
+
+  <!-- Featured Guest -->
+  <mj-section background-color="#A5D6A7" padding="10px">
+    <mj-column>
+      <mj-text css-class="highlight">
+        📚 <strong>Special Guest:</strong> Emil Ferris, author of <em>My Favorite Thing is Monsters</em>. Exclusive signing and talk on Friday.
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <!-- Workshops -->
+  <mj-section>
+    <mj-column width="50%">
+      <mj-text css-class="title">Workshops & Interactive Zones</mj-text>
+      <mj-text css-class="section-text">
+        Illustration, kids' comics, maker space, VR battles, and live role-playing games. Join the fun!
+      </mj-text>
+      <mj-button background-color="#FFC107" color="#2E2E2E" href="https://www.saloncomicvalencia.com/talleres">Register now</mj-button>
+    </mj-column>
+    <mj-column width="50%">
+      <mj-image src="https://raw.githubusercontent.com/Giordano-Huaman/Proyecto_MJML/main/Imagenes/Comic2.jpg" alt="RPG Table" border-radius="8px" />
+    </mj-column>
+  </mj-section>
+
+  <!-- Program Highlights -->
+  <mj-section background-color="#F5F5F5" padding="20px 0">
+    <mj-column>
+      <mj-text css-class="title" align="center">🗓️ Highlighted Schedule</mj-text>
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <mj-column width="50%">
+      <mj-text css-class="section-text">
+        <strong>Friday, February 28</strong><br/>
+        - 11:00 AM - Doors open<br/>
+        - 1:00 PM - Meet Emil Ferris (Castellon Hall)<br/>
+        - 5:00 PM - Illustration workshop with Paco Roca<br/>
+        - 7:00 PM - Cosplay contest
+      </mj-text>
+    </mj-column>
+    <mj-column width="50%">
+      <mj-text css-class="section-text">
+        <strong>Saturday, March 1</strong><br/>
+        - 11:00 AM - Panel: "The Future of Comics in Spain"<br/>
+        - 1:00 PM - International author signings<br/>
+        - 4:00 PM - Role-playing game demo<br/>
+        - 6:00 PM - Soundtrack concert
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <mj-column width="50%">
+      <mj-text css-class="section-text">
+        <strong>Sunday, March 2</strong><br/>
+        - 11:00 AM - Kids workshop: "Create Your Own Superhero"<br/>
+        - 1:00 PM - Meet Spanish authors<br/>
+        - 3:00 PM - Kids cosplay show<br/>
+        - 5:00 PM - Closing ceremony and awards
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <!-- News & Promotions -->
+  <mj-section background-color="#A5D6A7" padding="20px 0">
+    <mj-column>
+      <mj-text css-class="title" align="center">🏱 News & Promotions</mj-text>
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <mj-column width="33%">
+      <mj-image href="https://www.saloncomicvalencia.com/programacion-cosplay-25/" src="https://raw.githubusercontent.com/Giordano-Huaman/Proyecto_MJML/main/Imagenes/Cosplay.png" alt="Cosplay Raffle" border-radius="6px" />
+      <mj-text css-class="section-text" align="center"><strong>Cosplay Raffle</strong><br/>Win a VIP pass with your best costume.</mj-text>
+    </mj-column>
+    <mj-column width="33%" padding-top="50px" padding-bottom="50px">
+      <mj-image href="https://www.saloncomicvalencia.com/visitar/" src="https://raw.githubusercontent.com/Giordano-Huaman/Proyecto_MJML/main/Imagenes/Entradas.png" alt="Ticket Discount" border-radius="6px" />
+      <mj-text css-class="section-text" align="center"><strong>20% Off Advance Tickets</strong><br/>Available until February 15.</mj-text>
+    </mj-column>
+    <mj-column width="33%">
+      <mj-image href="https://www.saloncomicvalencia.com/visitar/" src="https://raw.githubusercontent.com/Giordano-Huaman/Proyecto_MJML/main/Imagenes/Entrada_premio.png" alt="Special Gift" border-radius="6px" />
+      <mj-text css-class="section-text" align="center"><strong>Exclusive Gift</strong><br/>Limited edition comic for the first 1,000 attendees.</mj-text>
+    </mj-column>
+  </mj-section>
+
+  <!-- Social Media -->
+  <mj-section background-color="#2E7D32" padding="20px">
+    <mj-column>
+      <mj-text align="center" color="#FFFFFF" font-size="18px">
+        Follow us on social media and stay up to date:
+      </mj-text>
+      <mj-social icon-size="30px" mode="horizontal" align="center" color="#F5F5F5">
+        <mj-social-element name="facebook" href="https://www.facebook.com/SalonComicValencia/" />
+        <mj-social-element name="instagram" href="https://www.instagram.com/saloncomicvalencia/" />
+        <mj-social-element name="twitter" href="https://x.com/SalonComicVlc" />
+      </mj-social>
+      <mj-image
+        href="https://www.feriavalencia.com"
+        src="https://raw.githubusercontent.com/Giordano-Huaman/Proyecto_MJML/main/Imagenes/Logo_Feria.png"
+        alt="Feria Valencia"
+        width="180px"
+        align="center"
+      />
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <mj-column>
+      <mj-text font-size="12px" color="#334155" align="center" line-height="1.3">
+        This email was sent by the Comic Con Valencia organization | <a href="https://www.saloncomicvalencia.com/" target="_blank" rel="noopener noreferrer">https://www.saloncomicvalencia.com/</a>
+      </mj-text>
+      <mj-text font-size="12px" color="#999999" align="center">
+        © Feria Valencia 2023 All rights reserved
+      </mj-text>
+    </mj-column>
+  </mj-section>
+</mj-body>
+</mjml>

@@ -1,81 +1,209 @@
 <mjml>
   <mj-head>
-    <mj-title>Boletín Salón del Cómic de València</mj-title>
-    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
-    <mj-attributes>
-      <mj-all font-family="Roboto, Arial, sans-serif" />
-      <mj-text font-size="16px" color="#333333" />
-      <mj-button background-color="#E63946" color="#ffffff" font-weight="bold" border-radius="6px" />
-    </mj-attributes>
+    <mj-title>Salón del Cómic - Feria Valencia</mj-title>
+    <mj-preview>Descubre el programa, invitados y sorpresas del Salón del Cómic de València</mj-preview>
+    <mj-font name="Bangers" href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" />
+    <mj-style>
+      .title {
+        font-family: 'Bangers', cursive;
+        font-size: 32px;
+        color: #2E7D32;
+      }
+      .section-text {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        color: #2E2E2E;
+        line-height: 1.6;
+      }
+      .highlight {
+        background-color: #A5D6A7;
+        border-left: 5px solid #2E7D32;
+        padding: 10px;
+      }
+      @media only screen and (max-width:480px) {
+        .title {
+          font-size: 24px !important;
+          text-align: center !important;
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+        }
+        .section-text {
+          font-size: 14px !important;
+          padding: 0 10px !important;
+          text-align: center !important;
+        }
+        .highlight {
+          font-size: 14px !important;
+          padding: 10px !important;
+        }
+        .mj-column-per-50,
+        .mj-column-per-33 {
+          width: 100% !important;
+          display: block !important;
+        }
+        .mj-button {
+          width: auto !important;
+          font-size: 14px !important;
+          padding: 10px 20px !important;
+        }
+        img {
+          width: 100% !important;
+          height: auto !important;
+        }
+      }
+    </mj-style>
   </mj-head>
-  <mj-body background-color="#f5f5f5">
-    <mj-section background-color="#ffffff" padding="20px">
+
+  <mj-body background-color="#F5F5F5">
+
+    <!-- CAMBIO DE IDIOMA -->
+    <mj-section background-color="#F5F5F5" padding="10px 25px" border-radius="12px">
+        <mj-column width="100%" vertical-align="middle">
+            <mj-text align="right" font-size="14px" padding="0">
+            <a href="https://giordano-huaman.github.io/Proyecto_MJML/HTML/SalondelComic.html" style="margin-right: 15px;">Español</a>
+            <a href="https://giordano-huaman.github.io/Proyecto_MJML/HTML/SalondelComic_en.html">English</a>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <!-- Encabezado -->
+    <mj-section background-color="#2E7D32" padding="20px 0">
       <mj-column>
-        <mj-image src="https://example.com/logo.png" alt="Salón del Cómic de València" width="150px" />
-        <mj-text font-size="22px" font-weight="bold" color="#1D3557" align="center">
-          🎉 Boletín Oficial – Salón del Cómic de València 🎉
+        <mj-text align="center" color="#FFFFFF" font-size="24px" font-family="Bangers">
+          🌿 ¡Vuelve el Salón del Cómic a València!
         </mj-text>
-        <mj-text align="center" color="#457B9D">
-          ¡Prepárate para la experiencia más épica del año!
+        <mj-image src="https://raw.githubusercontent.com/Giordano-Huaman/Proyecto_MJML/main/Imagenes/Cabecera_Comic.jpg" alt="Cabecera_Feria_Comic" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Sección 1 -->
+    <mj-section>
+      <mj-column width="50%">
+        <mj-image src="https://raw.githubusercontent.com/Giordano-Huaman/Proyecto_MJML/main/Imagenes/Comic1.jpg" alt="Imagen_de_evento" border-radius="8px" padding-bottom="30px" padding-top="30px" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text css-class="title">Una Aventura para Todos</mj-text>
+        <mj-text css-class="section-text">
+          Del 28 de febrero al 2 de marzo de 2025, el universo del cómic invade Feria Valencia. Charlas, zona manga, cosplay, gaming, talleres y firmas de autores.
+        </mj-text>
+        <mj-button background-color="#FFC107" color="#2E2E2E" href="https://www.saloncomicvalencia.com/avance-programacion-2025/">Descubre el programa</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Invitado destacado -->
+    <mj-section background-color="#A5D6A7" padding="10px">
+      <mj-column>
+        <mj-text css-class="highlight">
+          📚 <strong>Invitada Estelar:</strong> Emil Ferris, autora de <em>Lo que más me gusta son los monstruos</em>. Firma exclusiva y charla el viernes.
         </mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#ffffff" padding-top="0">
-      <mj-column>
-        <mj-divider border-color="#E63946" />
-        <mj-text font-size="18px" font-weight="bold" color="#1D3557">📰 Últimas Noticias</mj-text>
-        <mj-text>
-          <strong>🎤 Invitados Estelares:</strong> Este año contamos con artistas legendarios como <em>Nombre del artista</em> y <em>Nombre de ilustradora</em>, creadores de tus cómics favoritos.
+    <!-- Talleres -->
+    <mj-section>
+      <mj-column width="50%">
+        <mj-text css-class="title">Talleres & Zonas Interactivas</mj-text>
+        <mj-text css-class="section-text">
+          Ilustración, cómic infantil, zona maker, combates de realidad virtual y juegos de rol en vivo. ¡Participa!
         </mj-text>
-        <mj-text>
-          <strong>📣 ¡Más Zona Indie!</strong> Ampliamos el espacio para nuevos talentos del cómic con stands dedicados a la creatividad emergente.
+        <mj-button background-color="#FFC107" color="#2E2E2E" href="https://www.saloncomicvalencia.com/talleres">Apúntate ya</mj-button>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://raw.githubusercontent.com/Giordano-Huaman/Proyecto_MJML/main/Imagenes/Comic2.jpg" alt="Mesa_RPG" border-radius="8px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Programación -->
+    <mj-section background-color="#F5F5F5" padding="20px 0">
+      <mj-column>
+        <mj-text css-class="title" align="center">🗓️ Programación Destacada</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column width="50%">
+        <mj-text css-class="section-text">
+          <strong>Viernes 28 de febrero</strong><br/>
+          - 11:00 - Apertura de puertas<br/>
+          - 13:00 - Encuentro con Emil Ferris (Sala Castellón)<br/>
+          - 17:00 - Taller de ilustración con Paco Roca<br/>
+          - 19:00 - Concurso de cosplay
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text css-class="section-text">
+          <strong>Sábado 1 de marzo</strong><br/>
+          - 11:00 - Mesa redonda: "El futuro del cómic en España"<br/>
+          - 13:00 - Firma de autores internacionales<br/>
+          - 16:00 - Exhibición de juegos de rol<br/>
+          - 18:00 - Concierto de bandas sonoras
         </mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#ffffff" padding-top="0">
-      <mj-column>
-        <mj-divider border-color="#E63946" />
-        <mj-text font-size="18px" font-weight="bold" color="#1D3557">💥 Promociones Especiales</mj-text>
-        <mj-text>
-          <strong>🎟️ Descuento por Compra Anticipada:</strong> Ahorra un 15% en tus entradas hasta el <strong>[fecha límite]</strong>.
-        </mj-text>
-        <mj-button href="https://example.com/entradas">Comprar Entradas</mj-button>
-
-        <mj-text>
-          <strong>🛍️ Pack Fan Total:</strong> Entrada + póster + camiseta limitada. ¡Solo para los primeros 500!
+    <mj-section>
+      <mj-column width="50%">
+        <mj-text css-class="section-text">
+          <strong>Domingo 2 de marzo</strong><br/>
+          - 11:00 - Taller infantil: "Crea tu propio superhéroe"<br/>
+          - 13:00 - Encuentro con autores nacionales<br/>
+          - 15:00 - Exhibición de cosplay infantil<br/>
+          - 17:00 - Clausura y entrega de premios
         </mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#ffffff" padding-top="0">
+    <!-- Noticias y Promociones -->
+    <mj-section background-color="#A5D6A7" padding="20px 0">
       <mj-column>
-        <mj-divider border-color="#E63946" />
-        <mj-text font-size="18px" font-weight="bold" color="#1D3557">✨ Nuevos Estilos</mj-text>
-        <mj-text>
-          Descubre una estética renovada con influencias <em>neo-retro y urbanas</em>. Vive zonas temáticas, arte callejero y ambientación inmersiva.
-        </mj-text>
-        <mj-text>
-          📷 Usa el hashtag <strong>#ComicValencia2025</strong> y participa en el sorteo de merchandising exclusivo.
-        </mj-text>
+        <mj-text css-class="title" align="center">🎁 Noticias y Promociones</mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#ffffff" padding-top="0" padding-bottom="20px">
-      <mj-column>
-        <mj-divider border-color="#E63946" />
-        <mj-text align="center">
-          ¿Quieres más contenido exclusivo, sorteos y noticias?
-        </mj-text>
-        <mj-button href="https://example.com/boletin">Suscribirse al Boletín</mj-button>
+    <mj-section>
+      <mj-column width="33%">
+        <mj-image href="https://www.saloncomicvalencia.com/programacion-cosplay-25/" src="https://raw.githubusercontent.com/Giordano-Huaman/Proyecto_MJML/main/Imagenes/Cosplay.png" alt="Sorteo cosplay" border-radius="6px" />
+        <mj-text css-class="section-text" align="center"><strong>Sorteo Cosplay</strong><br/>Gana un pase VIP con tu mejor disfraz.</mj-text>
+      </mj-column>
+      <mj-column width="33%" padding-top="50px" padding-bottom="50px">
+        <mj-image href="https://www.saloncomicvalencia.com/visitar/" src="https://raw.githubusercontent.com/Giordano-Huaman/Proyecto_MJML/main/Imagenes/Entradas.png" alt="Descuento entradas" border-radius="6px" />
+        <mj-text css-class="section-text" align="center"><strong>-20% Anticipadas</strong><br/>Entradas en oferta hasta el 15 de febrero.</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image href="https://www.saloncomicvalencia.com/visitar/" src="https://raw.githubusercontent.com/Giordano-Huaman/Proyecto_MJML/main/Imagenes/Entrada_premio.png" alt="Regalo especial" border-radius="6px" />
+        <mj-text css-class="section-text" align="center"><strong>Regalo exclusivo</strong><br/>Comic limitado para los 1.000 primeros.</mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#1D3557" padding="10px">
+    <!-- Redes sociales -->
+    <mj-section background-color="#2E7D32" padding="20px">
       <mj-column>
-        <mj-text align="center" color="#ffffff" font-size="12px">
-          © 2025 Salón del Cómic de València. Todos los derechos reservados.
+        <mj-text align="center" color="#FFFFFF" font-size="18px">
+          Síguenos en redes y no te pierdas nada:
+        </mj-text>
+        <mj-social icon-size="30px" mode="horizontal" align="center" color="#F5F5F5">
+          <mj-social-element name="facebook" href="https://www.facebook.com/SalonComicValencia/" />
+          <mj-social-element name="instagram" href="https://www.instagram.com/saloncomicvalencia/" />
+          <mj-social-element name="twitter" href="https://x.com/SalonComicVlc" />
+        </mj-social>
+        </mj-social>
+        <mj-image
+          href="https://www.feriavalencia.com"
+          src="https://raw.githubusercontent.com/Giordano-Huaman/Proyecto_MJML/main/Imagenes/Logo_Feria.png"
+          alt="Feria Valencia"
+          width="180px"
+          align="center"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="12px" color="#334155" align="center" line-height="1.3">
+          Este correo fue enviado por la organización del Salón del Comic València | <a href="https://www.saloncomicvalencia.com/" target="_blank" rel="noopener noreferrer">https://www.saloncomicvalencia.com/</a>
+        </mj-text>
+        <mj-text font-size="12px" color="#999999" align="center">
+          © Feria Valencia 2023 todos los derechos reservados
         </mj-text>
       </mj-column>
     </mj-section>

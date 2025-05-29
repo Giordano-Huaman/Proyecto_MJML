@@ -6,3 +6,5 @@ Segunda semana
 Primer reto terminado y subido, falta documentacion
 Desarrollo del segundo reto y creacion de un servidor para automatizar el envio de correos con node.js
 Conversión a html de los archivos .mjml, a falta de alojarlos en un servidor para que se puedan visualizar
+Limpieza del repositorio, dejando solo archivos finales
+A falta de añadir documentacion y la parte de node.js
