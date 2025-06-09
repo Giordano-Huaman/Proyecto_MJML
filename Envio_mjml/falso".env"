@@ -1,0 +1,6 @@
+EMAIL_USER=tuemail@gmail.com
+EMAIL_PASS=tucontraseña_de_app o token de aplicacion
+DB_HOST=localhost
+DB_USER=root
+DB_PASS=contraseña
+DB_NAME=boletin
