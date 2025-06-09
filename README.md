@@ -23,11 +23,17 @@ Proyecto sencillo para enviar boletines (tipo newsletter) personalizados a usuar
 Instalar:
 
 sudo apt update
-sudo apt install nodejs npm
+
+sudo apt install npm
+
+sudo npm install -g n
+
+sudo n stable
 
 Verificamos que está todo bien con:
 
 node -v
+
 npm -v
 
 ### 2. Instalar dependencias del proyecto
@@ -44,7 +50,7 @@ sudo apt install mysql-server
 
 sudo mysql -u root -p < ../Base_de_datos/boletin.sql
 
-introducimos nuestra contraseña
+introducimos nuestra contraseña (seguramente 'root')
 
 ### 4. Creamos el archivo .env con nuestras credenciales
 
