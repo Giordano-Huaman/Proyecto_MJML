@@ -95,9 +95,9 @@ const transporter = nodemailer.createTransport({
           // Determinar nombre del archivo MJML
           let archivoMjml;
           if (nombreEvento.toLowerCase() === 'salondelcomic') {
-            archivoMjml = idioma === 'en' ? 'SalondelComic_en.mjml' : 'SalondelComic.mjml';
+            archivoMjml = idioma === 'en' ? '../SalondelComic_en.mjml' : '../SalondelComic.mjml';
           } else if (nombreEvento.toLowerCase() === 'expojove') {
-            archivoMjml = idioma === 'en' ? 'Expojove_final_en.mjml' : 'Expojove_final.mjml';
+            archivoMjml = idioma === 'en' ? '../Expojove_final_en.mjml' : '../Expojove_final.mjml';
           } else {
             console.warn(`⚠️ Archivo MJML no definido para evento: ${nombreEvento}`);
             continue;
