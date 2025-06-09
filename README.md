@@ -74,9 +74,9 @@ correos.csv
 
 email,nombre,idioma,fecha_registro,eventos
 
-maria@gmail.com,María,es,2025-01-15,SalondelComic;ExpoJove
+ejemplo1@gmail.com,Ejemplo1,es,2025-01-15,SalondelComic;ExpoJove
 
-john@outlook.com,John,en,2025-01-20,SalondelComic
+ejemplo2@outlook.com,Ejemplo2,en,2025-01-20,SalondelComic
 
 ### 6. Nos aseguramos de que los archivos MJML estén en la carpeta del proyecto
 
