@@ -90,7 +90,7 @@ Expojove_final_en.mjml
 
 ### 7. Ejecutamos el script
 
-node Send_MJML_final.js
+node send_MJML_final.js
 
 
 Trabajo realizado por Giordano Huamán Obregón 1ro de DAW
