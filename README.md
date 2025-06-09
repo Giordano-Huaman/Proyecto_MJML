@@ -48,13 +48,18 @@ introducimos nuestra contraseña
 
 ### 4. Creamos el archivo .env con nuestras credenciales
 
-touch.env
+touch .env
 
 EMAIL_USER=tuemail@gmail.com
+
 EMAIL_PASS=tucontraseña_de_app o token de aplicacion
+
 DB_HOST=localhost
+
 DB_USER=root
+
 DB_PASS=contraseña
+
 DB_NAME=boletin
 
 ### 5. Creamos el CSV
@@ -62,7 +67,9 @@ DB_NAME=boletin
 correos.csv
 
 email,nombre,idioma,fecha_registro,eventos
+
 maria@gmail.com,María,es,2025-01-15,SalondelComic;ExpoJove
+
 john@outlook.com,John,en,2025-01-20,SalondelComic
 
 ### 6. Nos aseguramos de que los archivos MJML estén en la carpeta del proyecto
